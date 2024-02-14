@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    align-items: ;
+} 
+
+.topBelt {
+    width: 100%;
+    height: 30px;
+    background-color: #60267F;
+    text-align: center;
+    color: white;
+}
+ 
+ 
+.header {
+    width: 100%;
+    height: 80px;
+    box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
+}
+ 
+.learnMore {
+    border-bottom: 1px solid white;
+}
+ 
+.svg {
+    width: 100%;
+    height: 500px;
+}
+ 
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+}
+ 
+.navChoice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+ 
+ 
+.navChoice ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navChoice ul li {
+    list-style: none;
+}
+
+.navChoice ul li a {
+    text-decoration: none;
+    color: #2B0236;
+}
+
+.navButton {
+    border: solid 1px #9A54BC;
+    color: #9A54BC;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: ;
+    transition: all 0.1s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navButton:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.headCirclesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.relative {
+    position: relative;
+}
+
+.headCirclesHeader {
+    color: #280236;
+    font-size: 42px;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.topHeadButton {
+    padding: 10px 20px;
+    background-color: #9A54BC;
+    color: white;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.topHeadButton:hover {
+background-color: white;
+color: #9A54BC;    
+}
+
+.relative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400%;
+    width: 100%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.smallCircle {
+    top: 20px;
+}
+
+.rectangle {
+top: 30px;
+}
+
+.collabWord {
+    top: 130px
+}
+
+.circlesButton {
+    bottom: 60px;
+    padding: 5px 10px;
+    border: solid 2px #60267F;
+    color: #60267F;
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.fiveIconsContainer {
+    width: 100%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ficeIconsImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
