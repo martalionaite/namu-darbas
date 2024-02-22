@@ -2,24 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  
 }
- 
+
 h2 {
-    font-weight: 500;
-    font-size: 24px;
-    align-items: center;
-} 
+font-weight: 500;
+font-size: 24px;
+text-align: center;
+}
 
 .topBelt {
     width: 100%;
-    height: 30px;
-    background-color: #60267F;
+    height: 20px;
     text-align: center;
-    color: white;
+    color: white;;
 }
- 
- 
+
 .header {
     width: 100%;
     height: 80px;
@@ -27,16 +25,11 @@ h2 {
     -webkit-box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
     -moz-box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
 }
- 
+
 .learnMore {
     border-bottom: 1px solid white;
 }
- 
-.svg {
-    width: 100%;
-    height: 500px;
-}
- 
+
 .navigationContainer {
     display: flex;
     justify-content: space-between;
@@ -44,15 +37,14 @@ h2 {
     height: 100%;
     padding: 0 30px;
 }
- 
+
 .navChoice {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
- 
- 
+
 .navChoice ul {
     display: flex;
     justify-content: center;
@@ -70,20 +62,20 @@ h2 {
 }
 
 .navButton {
-    border: solid 1px #9A54BC;
-    color: #9A54BC;
-    background-color: transparent;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: ;
-    transition: all 0.1s ease-in-out;
-    font-family: 'Roboto', sans-serif;
+border: solid 1px #9A54BC;
+font-family: 'Roboto', sans-serif;
+color: #9A54BC;
+background-color: transparent;
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transform: all 0.1s ease-in-out;
 }
 
 .navButton:hover {
-    background-color: #9A54BC;
-    color: white;
+background-color: #9A54BC;
+color: white;
 }
 
 .headCirclesContainer {
@@ -94,12 +86,8 @@ h2 {
     gap: 50px;
 }
 
-.relative {
-    position: relative;
-}
-
 .headCirclesHeader {
-    color: #280236;
+    color: #2B0236;
     font-size: 42px;
     width: 50%;
     text-align: center;
@@ -110,23 +98,24 @@ h2 {
     padding: 10px 20px;
     background-color: #9A54BC;
     color: white;
-    border: 2px solid #9A54BC;
+    border: 2px solid #2B0236;
     border-radius: 5px;
     cursor: pointer;
-} 
+}
 
 .topHeadButton:hover {
-background-color: white;
-color: #9A54BC;    
+    background-color: white;
+    color: #9A54BC;
 }
 
 .relative {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
     position: relative;
-    height: 400%;
     width: 100%;
+    height: 400px;
 }
 
 .absolute {
@@ -138,7 +127,7 @@ color: #9A54BC;
 }
 
 .rectangle {
-top: 30px;
+    top: 30px;
 }
 
 .collabWord {
@@ -146,13 +135,12 @@ top: 30px;
 }
 
 .circlesButton {
-    bottom: 60px;
     padding: 5px 10px;
     border: solid 2px #60267F;
     color: #60267F;
     background-color: white;
     border-radius: 5px;
-    width: 120px;
+    bottom: 60px;
 }
 
 .fiveIconsContainer {
@@ -164,9 +152,8 @@ top: 30px;
     align-items: center;
     gap: 50px;
 }
-
-.ficeIconsImgContainer {
-    width: 100%;
+.fiveIconsImageContainer {
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
@@ -182,39 +169,39 @@ top: 30px;
 }
 
 .howHelpBox {
-    width: 80%;
     display: flex;
-    justify-content: center;
-    background-color: antiquewhite;
+    justify-content:space-evenly;
     align-items: center;
+    width: 80%;
 }
 
-.howHelpleft {
+.howHelpLeft {
     width: 30%;
-    background-color: #60267F;
 }
+
+
 
 .howHelpBtn {
-    display: flex;
     width: 100%;
+    display: flex;
+    background-color: white;
     box-shadow: 1px 5px 9px -2px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 5px 9px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 5px 9px -2px rgba(0,0,0,0.75);
-padding: 5px;
+    -webkit-box-shadow: 1px 5px 9px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 9px -2px rgba(0,0,0,0.75);
+    padding: 5px;
 }
 
 .btnHelp {
     padding: 5px;
     border: none;
     background-color: transparent;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
-.btnHelp:hover{
-    background-color: #9A54BC;
+.btnHelp:hover {
+    background-color: #60267F;
     color: white;
 }
-
 
 .howHelpVendorBtn {
     width: 50%;
@@ -225,20 +212,31 @@ padding: 5px;
 
 .howHelpSupervisorBtn {
     width: 50%;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
 }
 
 .howHelpTextContainer {
     display: flex;
+    margin-top: 50px;
+    gap: 15px;
+    flex-direction: column;
 }
 
 .howHelpText {
     background-color: #F2F2F2;
     padding: 20px 10px;
+    font-weight: 300;
+}
+
+.howHelpTextHeaders {
+    font-weight: 700;
 }
 
 .howHelpRight {
     width: 40%;
-    background-color: #9A54BC;
     display: flex;
     align-items: center;
 }
@@ -262,6 +260,97 @@ padding: 5px;
     text-align: center;
 }
 
-.iframe (
-    background-color: transparent;
-)
+iframe {
+    width: 1000px;
+    height: 500px;
+}
+.projectsDoneContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    gap: 100px;
+
+}
+
+.projectDoneCardsContainer {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projectDoneCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projectDoneImg {
+    width: 350px;
+}
+
+.projectDonePara1 {
+    color: #60267F;
+}
+
+.collabAppsCardsContainer {
+    background-color: #1f0d270b; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.collabAppsCardsPara {
+    color: #A79D9D;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.collabAppsDiscount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.collabAppsDiscountMonthly {
+    color: #A79D9D;
+    font-size: 11px;
+}
+
+.collabAppsDiscountYearly {
+    font-size: 11px;
+}
+
+.collabAppsDiscountTenPercent {
+    font-size: 8px;
+    background-color: yellow;
+    margin-left: 5px;
+}
+
+.collabCardsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #A79D9D;
+}
+
+.collabCardsList {
+    list-style: none;
+}
+
+.collabCardsList::before {
+    content: "\F231";
+    font-family: bootstrap;
+}
